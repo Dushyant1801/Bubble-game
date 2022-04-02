@@ -5,7 +5,7 @@ var rndm = 0;
 var bubble = document.querySelector("#bubble");
 var bottom = document.querySelector("#bottom");
 function showbubbles(){
-    for(var i=0; i<80; i++){
+    for(var i=0; i<85; i++){
         clutter+=`<div id="bubble">
         <h1>${Math.floor(Math.random()*10)}</h1>
         </div>`
